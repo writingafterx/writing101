@@ -97,7 +97,24 @@ A comprehensive Learning Management System built with Node.js, Express, React, a
      - `NODE_ENV`: Environment (development/production)
      - `DB_PATH`: Path to SQLite database file
 
-5. **Start the development servers**
+5. **Database Setup**
+
+   The database will be automatically created when you start the server. For a quick start with sample data:
+
+   ```bash
+   npm run seed
+   ```
+
+   This creates sample users, courses, assignments, and discussions.
+
+   **Sample Login Credentials:**
+   - Admin: `admin@lms.com` / `admin123`
+   - Instructor: `john.smith@lms.com` / `instructor123`
+   - Student: `alice.brown@student.lms.com` / `student123`
+
+   See [DATABASE.md](DATABASE.md) for detailed database documentation.
+
+6. **Start the development servers**
 
    **Option 1: Run both servers separately**
 
@@ -119,7 +136,7 @@ A comprehensive Learning Management System built with Node.js, Express, React, a
    npm start
    ```
 
-6. **Access the application**
+7. **Access the application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000/api
 
