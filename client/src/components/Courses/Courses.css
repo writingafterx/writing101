@@ -1,0 +1,72 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.courses-list {
+  display: grid;
+  gap: 20px;
+}
+
+.course-item {
+  transition: transform 0.2s;
+}
+
+.course-item:hover {
+  transform: translateY(-2px);
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.course-header h3 {
+  margin: 0 0 5px 0;
+}
+
+.course-header h3 a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.course-header h3 a:hover {
+  text-decoration: underline;
+}
+
+.course-instructor {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.course-badges {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.course-description {
+  color: #555;
+  margin: 0 0 15px 0;
+}
+
+.course-actions {
+  display: flex;
+  gap: 10px;
+}
